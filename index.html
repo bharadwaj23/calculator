@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://res.cloudinary.com/dkjfwp61k/image/upload/v1691250979/icons8-calculator-64_c9cx8e.png">
+    <script src="https://kit.fontawesome.com/ee9894a4b2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="topSection" class="top-section">
+            <div class="change-theme">
+                <div onclick="theme1()" class="theme" style="background-color:#474E68;"></div>
+                <div onclick="theme2()" class="theme" style="background-color:#7895CB;"></div>
+                <div onclick="theme3()" class="theme" style="background-color:#85A389;"></div>
+                <div onclick="theme4()" class="theme" style="background-color:#654E92;"></div>
+            </div>
+            <div class="user-input-container">
+                <input id="userInput" type="text" class="user-input" placeholder="ask here..." />
+            </div>
+        </div>
+        <div id="bottomSection" class="bottom-section">
+            <div id="delete" class="box special">
+                <i class="far fa-trash-alt" style="color: #ffffff;"></i>
+            </div>
+            <div id="backspace" class="box special">
+                <i class="fas fa-backspace" style="color: #ffffff;"></i>
+            </div>
+            <div id="percentage" class="box special"><i class="fas fa-percentage" style="color: #ffffff;"></i>
+            </div>
+            <div id="divide" class="box special">
+                <i class="fas fa-divide" style="color: #ffffff;"></i>
+            </div>
+            <div id="seven" class="box">7</div>
+            <div id="eight" class="box">8</div>
+            <div id="nine" class="box">9</div>
+            <div id="multiply" class="box special">
+                <i class="fas fa-times" style="color: #ffffff;"></i>
+            </div>
+            <div id="four" class="box">4</div>
+            <div id="five" class="box">5</div>
+            <div id="six" class="box">6</div>
+            <div id="minus" class="box special">
+                <i class="fas fa-minus" style="color: #ffffff;"></i>
+            </div>
+            <div id="one" class="box">1</div>
+            <div id="two" class="box">2</div>
+            <div id="three" class="box">3</div>
+            <div id="plus" class="box special">
+                <i class="fas fa-plus" style="color: #ffffff;"></i>
+            </div>
+            <div id="na" class="box special">NA</div>
+            <div id="zero" class="box">0</div>
+            <div id="dot" class="box special">.</div>
+            <div id="equals" class="box special">
+                <i class="fas fa-equals" style="color: #ffffff;"></i>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
