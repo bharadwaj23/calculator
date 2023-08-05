@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.top-section {
+    height: 25vh;
+    background-color: #404258;
+    width: 380px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.change-theme {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    width: 50%;
+}
+
+.theme {
+    background-color: #6B728E;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.user-input-container {
+    align-self: flex-end;
+    width: 100%;
+    margin: 10px;
+}
+
+.user-input {
+    height: 40px;
+    width: 100%;
+    background-color: transparent;
+    font-family: roboto;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    text-align: right;
+    letter-spacing: 3px;
+}
+
+.bottom-section {
+    height: 60vh;
+    width: 380px;
+    background-color: #404258;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.box {
+    height: 55px;
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #474E68;
+    color: white;
+    font-weight: bold;
+    font-family: Courier New;
+    border-radius: 15px;
+    font-size: 25px;
+    margin: 15px;
+}
+
+.box:hover {
+    height: 56px;
+    width: 56px;
+    background-color: #6B728E;
+    cursor: pointer;
+}
+
+.special {
+    box-shadow: inset 1px 1px 40px 2px black;
+}
